@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "transaction_id": "txn_1a2b3c4d5e6f7g8h",
+  "amount": 150.0,
+  "currency": "PHP",
+  "sender": {
+    "id": "user_12345",
+    "name": "John Smith"
+  },
+  "recipient": {
+    "id": "user_67890",
+    "name": "Sarah Johnson"
+  },
+  "timestamp": "1751788446911",
+  "message": "Money sent successfully"
+}
