@@ -26,6 +26,7 @@ class WalletRemoteDataSourceImpl implements WalletRemoteDataSource {
     required String message,
   }) async {
     try {
+      ///Let's pretend this is a POST request to send money for now.
       final response = await dio.get(
         'https://fakeapi94.s3.ap-southeast-1.amazonaws.com/transaction.json',
         data: {
